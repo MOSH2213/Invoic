@@ -228,7 +228,10 @@
             const element=document.getElementById("pdf");
             html2pdf()
             .from(element)
+            // save() function specifeis the name of pdf
             .save("Invoice");
+            // see all parameter types on below link
+            // https://ekoopmans.github.io/html2pdf.js/
         }
     </script>
 
